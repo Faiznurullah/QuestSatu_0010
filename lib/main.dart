@@ -65,7 +65,11 @@ class MyWidget extends StatelessWidget {
                 color: Colors.red
               ),),
               Text("Alamat: Jln. Veteran no.9"),
-              Text("Semester: 5"),
+              Text("Semester: 5", 
+               style: TextStyle(
+                fontSize: 15,
+               )
+              ),
                 ],
               )
             ],

@@ -50,6 +50,17 @@ class MyWidget extends StatelessWidget {
                 radius: 100,
                 backgroundImage: AssetImage('assets/images/faiznurullah.jpg'),
               ),
+              SizedBox(height: 20),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text("Nama: Faiz Nurullah"),
+              Text("Kelas: IF-5B"),
+              Text("NIM: 3012310010"),
+              Text("Alamat: Jln. Veteran no.9"),
+              Text("Semester: 5"),
+                ],
+              )
             ],
           ),
         )

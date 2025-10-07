@@ -54,7 +54,11 @@ class MyWidget extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Nama: Faiz Nurullah"),
+                  Text("Nama: Faiz Nurullah", 
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold
+                  ),
+                  ),
               Text("Kelas: IF-5B"),
               Text("NIM: 3012310010"),
               Text("Alamat: Jln. Veteran no.9"),

@@ -60,7 +60,10 @@ class MyWidget extends StatelessWidget {
                   ),
                   ),
               Text("Kelas: IF-5B"),
-              Text("NIM: 3012310010"),
+              Text("NIM: 3012310010", 
+              style: TextStyle(
+                color: Colors.red
+              ),),
               Text("Alamat: Jln. Veteran no.9"),
               Text("Semester: 5"),
                 ],
